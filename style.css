@@ -1,0 +1,59 @@
+body {
+  background-color: #f6f9fc;
+  font-family: 'Nanum Gothic', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600;
+  font-size: 12px;
+  padding: 50px 0;
+}
+
+.canvas {
+  width: 700px;
+  height: 700px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+
+}
+.controls {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.controls .controls_btn {
+  margin-bottom: 30px;
+}
+.controls_btn button {
+  all: unset;
+  cursor: pointer;
+  background-color: #fff;
+  padding: 5px 0px;
+  width: 80px;
+  text-align: center;
+  border-radius: 7px;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.1);
+  color: rgba(0,0,0,.7);
+}
+.controls_btn button:active {
+  transform: scale(.95);
+}
+.controls .colors {
+  display: flex;
+}
+.controls .color {
+  width: 50px;
+  height: 50px;
+  border-radius: 25%;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+}
+.controls .color:hover {
+  transform: scale(1.1);
+}
+
+.controls .range {
+  margin-bottom: 30px;
+}

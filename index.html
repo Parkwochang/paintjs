@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  
+  <script defer src="./app.js"></script>
+
+  <title>PaintJS</title>
+</head>
+
+<body>
+  <canvas id="jsCanvas" class="canvas"></canvas>
+  <div class="controls">
+    <div class="range">
+      <input type="range" id="jsRange" min=".1" max="5" value="2.5" step=".1">
+    </div>
+    <div class="controls_btn">
+      <button id="jsMode">Fill</button>
+      <button id="jsSave">Save</button>
+    </div>
+    <div class="colors">
+      <div class="color" style="background-color: #2c2c2c;"></div>
+      <div class="color" style="background-color: #fff;"></div>
+      <div class="color" style="background-color: #ff3b30;"></div>
+      <div class="color" style="background-color: #ff9500;"></div>
+      <div class="color" style="background-color: #ffcc00;"></div>
+      <div class="color" style="background-color: #4cd963;"></div>
+      <div class="color" style="background-color: #5ac8fa;"></div>
+      <div class="color" style="background-color: #0579aa;"></div>
+      <div class="color" style="background-color: #5856d6;"></div>
+    </div>
+  </div>
+</body>
+
+</html>
