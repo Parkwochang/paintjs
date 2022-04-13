@@ -76,6 +76,7 @@ function handleModeClick() {
   }
 }
 
+//우클릭 방지용
 function handleCM(event) {
   event.preventDefault();
 }
